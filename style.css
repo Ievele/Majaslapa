@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.left, .right {
+    max-width: 500px;
+    flex: 1;
+}
+
+/* Kreisā puse */
+.promo-box {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.promo-box h1 {
+    font-size: 60px;
+    margin: 10px 0;
+    color: black;
+}
+
+.promo-box h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.promo-box h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.promo-box img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #c0669c;
+}
+
+/* Labā puse */
+.brand {
+    color: hotpink;
+    font-size: 36px;
+    margin: 0;
+}
+
+.sub-brand {
+    margin-top: -5px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.nav {
+    margin: 15px 0;
+}
+
+.nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav a.highlight {
+    color: hotpink;
+}
+
+.robe-img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 0;
+}
+
+.social-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.phone-label {
+    color: hotpink;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.phone-number {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.bottom-logo {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
